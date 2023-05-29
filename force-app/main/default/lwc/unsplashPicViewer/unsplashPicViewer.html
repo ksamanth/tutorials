@@ -1,0 +1,7 @@
+<template>
+    <template for:each={myDataSet} for:item="eachImage">
+        <div key={eachImage.id}>
+            <img src={eachImage.urls.full} alt="img">
+        </div>
+    </template>
+</template>
